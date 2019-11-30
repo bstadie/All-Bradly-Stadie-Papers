@@ -19,7 +19,6 @@ Every one of Bradly Stadie's papers
 
 ## Sorted By Topic
 
-Some papers appear under more than one topic due to crossover. 
 
 ### Exploration 
 1. Incentivizing Exploration in Reinforcement Learning with Deep Predictive Models: At the time this paper was written, most exploration in deep RL was epsilon greedy. We wanted a more efficient method of exploration, following the intution behind "Near-Bayesian Exploration in Polynomial Time." We ended up achieving better exploration by learning a dynamics model and using the misprediction error from this model as a proxy for how well the agent understood that area of the environment. At the time of release, this paper achieved several state of the art results on Atari. 
